@@ -86,9 +86,8 @@ main {
 #volume-image {
   justify-self: center;
   justify-self: flex-start;
-  max-width: 40px;
   padding-right: 20px;
-  width: 100%;
+  width: 40px;
 }
 
 #volume-slider {
