@@ -17,15 +17,17 @@
     <main>
       <img id="sound-image" src="./assets/media/images/air-horn.svg" alt="Air Horn">
 
-      <form>
+      <form id="party-horn-form">
         <fieldset id="volume-controls">
-          <label for="volume-number">Volume</label>
-          <img id="volume-image" src="./assets/media/icons/volume-level-3.svg"
-            alt="Max Volume">
-          <input id="volume-number" name="volume-number" type="number" min="0" max="100"
-            value="100">
-          <input id="volume-slider" name="volume-slider" type="range" min="0" max="100"
-            value="100">
+          <div id="volume-grid-container">
+            <label for="volume-number" id="volume-text">Volume</label>
+            <img id="volume-image" src="./assets/media/icons/volume-level-3.svg"
+              alt="Max Volume">
+            <input id="volume-number" name="volume-number" type="number" min="0" max="100"
+              value="100">
+            <input id="volume-slider" name="volume-slider" type="range" min="0" max="100"
+              value="100">
+          </div>
         </fieldset>
 
         <fieldset id="audio-selection">
