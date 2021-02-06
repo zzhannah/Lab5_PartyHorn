@@ -1,7 +1,6 @@
 name: Gif Comment
 on:
-  issues:
-  types: [opened]
+  issues: [opened]
   
 jobs:
   commment:
