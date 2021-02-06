@@ -8,9 +8,9 @@ jobs:
     if: 
     runs-on: ubuntu-latest
     steps:
-      - name: lalala
-        uses: Marta83/funnt-comment-action@v2.1
-        id: makabaka
+      - name: Add funny comment
+        uses: Marta83/funny-comment-action@v2.1
+        id: FunnyComment
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
