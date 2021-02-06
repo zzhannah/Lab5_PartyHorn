@@ -1,0 +1,17 @@
+name: Gif Comment
+on:
+  issues:
+  types: [opened]
+  
+jobs:
+  commment:
+    if: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: lalala
+        uses: Marta83/funnt-comment-action@v2.1
+        id: makabaka
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
+          comment_type: 'gif'
